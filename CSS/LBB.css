@@ -1,0 +1,129 @@
+.LBB{
+    /* height: 300px; */
+    /* border: 2px solid red; */
+    background-image: url(../Images/LiveReportBG.jfif);
+    background-size: cover;
+    height: 90vh;
+
+    width: 100%;
+  
+}
+
+
+.LBBhSAndTexts{
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+   gap: 10px;
+}
+
+
+.BreakingMessages{
+    display: none;
+}
+.BiggestEventMessages{
+    display: none;
+}
+ /* center{
+    margin: 0 auto;
+} */
+
+ .LBBhSAndTexts h5:nth-child(1){
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #fff;
+
+}
+ .LBBhSAndTexts h5{
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding-bottom: 10px;
+
+}
+.padding h1{
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.padding p{
+    font-size: 15px;
+    color: #fff;
+    margin-top: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 450px;
+}
+.padding small,a{
+    color: #ffffff66;
+    font-size: 10px;
+}
+.padding .imgs img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+ .padding{
+    padding: 5%;
+    
+}
+
+
+
+.LiveSportLBBBONE{
+    /* background-image: url(../Images/LiveReportBG.jfif); */
+    background-image: url(../Images/TopHeadeBackgroung.jfif);
+    /* height: 100vh; */
+    height: 90vh;
+
+    width: 100%;
+
+}
+.BreakingLBBTWO{
+    background-image: url(../Images/BreakingNewsBG.jfif);
+    background-size: cover;
+    height: 100vh;
+
+    width: 100%;
+}
+.BreakingLBBTHREE{
+    background-image: url(../Images/BiggestEventBG.jfif);
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+@media (max-width:1023px) {
+    .padding h1{
+        font-size: 2rem;
+    }
+    .LBB{
+        background-image: url(../Images/LiveRepormobile.jfif);
+        background-size: cover;
+        /* height: 100%; */
+        height: 90vh;
+
+    width: 100%;
+    }
+     .padding{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+    }
+    .BreakingLBBTWO{
+        background-image: url(../Images/BreakingNewsImgMobile.jfif);
+    }
+    .BreakingLBBTHREE{
+        background-image: url(../Images/BiggestEventMobile.jfif);
+    }
+}

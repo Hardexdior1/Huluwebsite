@@ -1,0 +1,58 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #000000;
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 20px;
+}
+
+ td{
+    border-bottom: 1px solid #474444;
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: lighter;
+    max-width: 520px;
+    margin-right: 100px;
+}
+
+.tableBody1 td{
+    max-width: fit-content;
+}
+
+.tableBody1{
+    display: initial;
+}
+
+.tableBody1None{
+    display: none;
+}
+
+
+.tableBody2{
+    display: none;
+}
+.tableBody2Show{
+    display: initial;
+}
+@media screen and (max-width: 600px) {
+    table {
+        font-size: 12px;
+    }
+    
+    table td, table th {
+        padding: 6px;
+    }
+}
+#CheckMark{
+    font-size: 20px;
+    color: #1ce783;
+    font-weight: 100;
+  align-self: center;
+  justify-self: center;
+}

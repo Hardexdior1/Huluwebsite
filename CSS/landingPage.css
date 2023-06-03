@@ -1,0 +1,96 @@
+.header{
+/* background-color:black; */
+height: fit-content;
+}
+
+.header .logoAndlogin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 34px;
+    justify-items: center;
+    position: relative;
+
+}
+.logIn{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "sanserif";
+    color: #a8afbd;
+    transition: 0.3s;
+    font-weight: 700;
+
+}
+.logIn:hover{
+    color: #ffffff;
+    padding: 10px 12px;
+    background-color: #a8afbd;
+    border-radius: 5px;
+    font-family: "graphik Web,sanserif";
+
+}
+.getAllThree{
+    color: #ffffff;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+
+
+@media (min-width:1023px) {
+    .getAllThree,.getTheApp,#menu, .getTheApp2{
+        display: none;
+        
+    }
+   
+   
+   
+}
+
+@media (max-width:1023px) {
+    .getAllThree{
+        display: initial;
+        color:#ffffff;
+     padding: 20px 58px;
+     margin: 3px;
+     margin-top: 5px;
+     background-color: black;
+     font-family: sans-serif;
+     font-weight: 600;
+     border-radius: 5px;
+    }
+   
+    .getTheApp2{
+        font-family: sans-serif;
+            text-decoration: none;
+            color: #a8afbd;       
+            font-weight: 600;
+    }
+    #menu{
+        color: #fff;
+        display:initial;
+        padding: 10px;
+        border-radius: 4px;
+        background-color: #212224;
+    }
+    .loginDiv{
+        display: none;
+    }
+    .show{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        position: absolute;
+        right: 30px;
+        top:60px;
+        align-items: center;
+        padding-bottom: 1.5rem;
+        background-color: #18181b;
+        border-radius: 5px;
+        padding-top: 10px;
+    }
+   
+}

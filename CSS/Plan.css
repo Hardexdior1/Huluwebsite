@@ -1,0 +1,228 @@
+.SelectPlanWrap center{
+    /* border: 1px solid red; */
+    padding-top: 10px;
+}
+.SelectPlanWrap h1{
+    color: #fff;
+    font-size: 3rem;
+}
+.SelectPlanWrap p{
+    color: #fff;
+    line-height: 15px;
+}
+
+.SelectPlanWrap h6{
+    color:#1ce783;
+
+}
+.SelectPlanWrap h5{
+    color: #fff;
+}
+.bestPlansWrap{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.mostPoPuLarWrap{
+    line-height: 10px;
+    padding-bottom: 30px;
+}
+ .mostPoPuLarWrap1 button:nth-child(1){
+    color:#1d181d;
+    background-color: #1ce783;
+    font-size: 8px;
+    padding: 10px 35px ;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: n-resize;
+    border: none;
+}
+.mostPoPuLarWrap1 h3{
+    color: rgb(102, 105, 103);
+    font-size: 12px;
+    font-family: sans-serif ;
+   
+}
+.mostPoPuLarWrap1 h4{
+    color: #fff;
+    margin-bottom: 5px;
+}
+.mostPoPuLarWrap1 a{
+    color: #040405;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px 70px;
+    border-radius: 5px;
+    
+    background-color: #fff;
+}
+/* .mostPoPuLarWrap1{
+    display: flex;
+    gap: 10px;
+    align-items: last baseline;
+} */
+.mostPoPuLarWrap1{
+    display: flex;
+    gap: 20px;
+    align-items: last baseline;
+}
+.mostPoPuLarWrap1Prevent{
+    display: none;
+}
+
+
+.pricePerMonth{
+    padding: 10px 45px ;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #fff;
+    font-size: 14px;
+    color: #040405;
+    cursor: pointer;
+
+}
+
+
+
+.mostPoPuLarWrap2 button:nth-child(1){
+   color:#1d181d;
+   background-color: #1ce783;
+   font-size: 8px;
+   padding: 10px 35px ;
+   border-radius: 20px;
+   font-weight: bold;
+   cursor: n-resize;
+   border: none;
+}
+.mostPoPuLarWrap2 h5{
+   color: #fff;
+   font-size: 16px;
+   font-family: sans-serif ;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-weight: bold;
+  
+}
+.mostPoPuLarWrap2 h2{
+   color: #fff;
+   margin-bottom: 5px;
+   font-size: 17px;
+   margin-bottom: 0;
+}
+.mostPoPuLarWrap2 a{
+   color: #040405;
+   font-weight: bold;
+   text-decoration: none;
+   padding: 15px 70px;
+   border-radius: 5px;
+   
+   background-color: #fff;
+}
+.BasePlanAndMostPopularFlexDiv{
+    display: flex;
+    align-items: last baseline center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.mostPoPuLarWrap2{
+    display: none;
+    transition: 0.3s;
+
+    
+}
+.mostPoPuLarWrap2Prevent{
+    display: flex;
+    gap: 20px;
+    align-items: last baseline;
+    transition: 0.3s;
+}
+
+.mostPoPuLarWrap2 .pricePerMonth{
+    padding: 7px 30px ;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #fff;
+    font-size: 14px;
+    color: #040405;
+    cursor: pointer;
+
+}
+
+@media(max-width:539px) {
+    .mostPoPuLarWrap2Prevent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+@media (max-width:359px) {
+    .mostPoPuLarWrap2Prevent{
+        grid-template-columns: 1fr;
+    }
+    .mostPoPuLarWrap1{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:1023px) {
+    .BasePlanAndMostPopularFlexDiv{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .pricePerMonth{
+        content: 'hhhh';
+    }
+    
+}
+
+/* TABLE CSS STARTS HERE */
+.TableWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid rgb(0, 255, 0); */
+    flex-direction: column;
+
+}
+.tableFlex{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    gap: 8rem;
+    /* border: 1px solid blue; */
+
+    
+}
+.monthPriceFlex{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+.tableFlex p{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: light;
+}
+@media (max-width:1023px) {
+    .monthPriceFlex{
+        /* gap: 100%; */
+        align-items: center;
+        justify-content: space-between;
+        margin-top: -15px;
+        
+    }
+    .tableFlex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        /* padding: 10px; */
+       
+    }
+}
+

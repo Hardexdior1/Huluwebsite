@@ -1,0 +1,30 @@
+.toggle {
+    position: relative;
+    /* display: inline-block; */
+    width: 60px;
+    height: 34px;
+    background-color: #706767;
+    border-radius: 17px;
+    margin-bottom: -20px;
+    cursor: pointer;
+  }
+  .toggle2{
+    background-color: #1ce783;
+  }
+  .inner-circle {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    transition: transform 0.2s;
+  }
+  
+  .toggle.active .inner-circle {
+    transform: translateX(26px);
+  }
+  
+
+  

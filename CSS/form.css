@@ -1,0 +1,96 @@
+form{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.formWrap{
+    background-color: #fff;
+    padding: 40px 39px;
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    margin: 0 auto; 
+     position: absolute;
+     top: 39px;
+     right: 0;
+     left: 0;
+     transition: 0.3s ease;
+    /* top: 0;
+    right: 10;
+    left: 10;*/
+ 
+}
+.displayNone{
+    display: none;
+    transition: 0.3s ease-in;
+}
+.formWrap i{
+    font-weight: 100;
+    float: right;
+    font-size: 30px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    cursor: pointer ;
+    transition: 0.3s ease;
+}
+
+.formWrap i:hover{
+    color: red;
+    transform: rotate(300deg);
+}
+.formWrap i:active{
+    color: #75e909;
+
+}
+
+.formWrap h2{
+    color: #272c34;
+    font-size: 26px;
+    font-weight: bold;
+}
+.formWrap p{
+    color: #636e85;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+    line-height: 23px;
+}
+.formWrap a{
+    color: #3c88eb;
+    font-size: 14px;
+    text-decoration: none;
+}
+.formWrap label{
+    color: #636e85;
+    font-size: 13px;
+    font-weight: bold;
+
+
+}
+.formWrap input{
+    border: 1px solid gray;
+    height: 45px;
+    margin-top: 13px;
+    width: 93%;
+    border-radius: 5px;
+}
+
+#login{
+    width: 95% !important;
+    height: 47px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #272C35;
+    opacity: 0.5;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ;
+}
+
+
+.showPass{
+    margin-top: 10px;
+}
+.hidePass{
+    margin-top: 10px;
+}
