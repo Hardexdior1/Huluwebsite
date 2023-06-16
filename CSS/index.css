@@ -14,4 +14,12 @@ body {
 #menu{
   background-color:black;
   font-size:35px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#menu div{
+  background-color: white;
+  height: 4px;
+  width: 25px;
 }
