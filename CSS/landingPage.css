@@ -41,7 +41,7 @@ li{
 
 
 @media (min-width:1023px) {
-    .getAllThree,.getTheApp,#menu, .getTheApp2{
+    .getAllThree,.getTheApp, .getTheApp2{
         display: none;
         
     }
@@ -69,13 +69,13 @@ li{
             color: #a8afbd;       
             font-weight: 600;
     }
-    #menu{
+    /* #menu{
         color: #fff;
         display:initial;
         padding: 10px;
         border-radius: 4px;
         background-color: #212224;
-    }
+    } */
     .loginDiv{
         display: none;
     }
